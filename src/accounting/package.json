@@ -1,0 +1,29 @@
+{
+  "name": "student-account-management",
+  "version": "1.0.0",
+  "description": "Student Account Management System - Node.js port from COBOL",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "accounting",
+    "student",
+    "balance",
+    "credit",
+    "debit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
